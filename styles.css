@@ -1,0 +1,74 @@
+html, body {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+header {
+  height: 300px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+    url('assets/img/fazenda-santa-vitoria-queluz-dutra-melhor-cafe-da-manha-pedro-siqueira-interior-sao-paulo-rio-de-janeiro-leite-1200-9.jpg.webp');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.header-texto {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  z-index: 1;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+main {
+  max-width: 800px;
+  margin: 30px 20px 0 20px;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  text-align: left;
+}
+
+main section {
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+main h2 {
+  color: #2e8b57;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+
+main p {
+  font-size: 1.1em;
+}
+
+main ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+main ul li {
+  margin-bottom: 6px;
+  font-size: 1.1em;
+}
+
+footer {
+  background-color: #2e8b57;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
